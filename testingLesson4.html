@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tests of Assignment 4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Test Results of Lesson 4 made by Kira Miller.">
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+    <body>
+
+        <div id="testLesson4"></div>
+
+        <script>
+//------------------------------------------------------------------------
+// Copy and paste student's code into this big space below:
+
+
+  
+  
+
+
+
+            
+            
+//--------------- IMPORTANT!!! ---------------
+
+// Use the keyboard shortcut Alt + Z (for PC) or Option + Z (for Mac) to allow word wrap on this document.  Word wrap breaks the lines so you don't have to keep scrolling left and right to read.
+
+//READ THE INFORMATION IN THE BROWSER WINDOW PANEL ON THE RIGHT BEFORE BEGINNING YOUR ASSIGNMENT!!
+
+//---------- OVERVIEW AND INSTRUCTIONS ----------
+
+//----------------------------------
+// LESSON 4 ARRAY METHODS
+//----------------------------------
+
+//  This is the coding assigment for the fourth week of the Intro to Programming course from Code the Dream. The concepts touched on in this assignment include:
+
+//  - Using Array Methods
+//  - Understanding about iterative methods
+//  - Learning about callbacks
+//  - Creating Higher Order Functions
+//  - Using existing Array Higher Order Functions (e.g. forEach(), map(), filter(), etc.)
+
+// In this assignment you will write your own code. Your instructions are listed as "comments", meaning the instructions are grayed out and start with '//' at the beginning of the line of code. Put your answers immediately below the instructions for each question. As mentioned in the Welcome to week 4 information to the right, you'll need to use console logs for all the questions to check your code output. Using a function in a console.log is very similar to how you were using them with variables last week. To invoke/call the function use the syntax:
+
+//  console.log("Q#: ", functionName(anyInput))
+
+// Please be sure to check the output of your called functions and console logs in the Console tab to the bottom right of this screen. If your Console is not showing, click the Inspect Button in the top right (see the Welcome to week 4 information to the right if you need help finding that)  Check to make sure that the output you get in your Console is the expected output.
+
+// ----- Practice JS array methods: forEach -----
+//---------- QUESTION 1 ----------
+// Create an variable called 'names' and assign it an array of people's names.  Write a function called 'printNames' that uses the forEach array method to log each name in an array to the console.  Remember, since you're using the console.log in the function, you'll just want to call your function and pass it the array of names when testing your code.
+
+// EXAMPLE CALL:
+//    let names = ["Juan Marcos", "Aleksandra Ivanov", "Zhang Wei", "Bernice King"];
+//    console.log("Q1 printNames:");
+//    printNames(names);
+
+// EXAMPLE OUTPUT:
+//   Q1 printNames:
+//   Juan Marcos
+//   Aleksandra Ivanov
+//   Zhang Wei
+//   Bernice King
+
+// PUT YOUR CODE HERE
+
+// Example only:
+const names = ["Dr. Zoidberg", "Han Solo", "Hello Kitty", "Pinkie Pie"];
+
+function printNames(namesArray) {
+
+  namesArray.forEach(function (name) {
+
+    console.log(name);
+
+  });
+
+}
+
+printNames(names);
+
+//---------- QUESTION 2 ----------
+// Create a variable called 'trees' and assign it an array of 3 objects.  Each object should have a 'type' property and a 'height' property.  You can use 'type' to describe the type of tree (ex. Dogwood, Maple, Oak, Elm, etc.) and give them any height.  Now write a function called 'logTreeType' that uses forEach to log the type of each tree object to the console.
+
+// EXAMPLE CALL:
+//   const trees = [
+//     { type: "oak", height: "30m" },
+//     { type: "elm", height: "25m" },
+//     { type: "birch", height: "18m" } ]
+//   console.log("Q2 logTreeType:");
+//   logTreeType(trees);
+
+// EXAMPLE OUTPUT:
+//   Q2 logTreeType:
+//   oak
+//   elm
+//   birch
+
+// PUT YOUR CODE HERE
+
+// Example only:
+const trees = [
+  { type: "oak", height: "30m" },
+  { type: "elm", height: "25m" }
+];
+
+function logTreeType(treesArray) {
+
+}
+
+// etc ...
+
+
+
+
+            
+
+
+
+			
+
+
+
+
+  
+  
+//------------------------------------------------------------------------
+// End of pasted code section. Begin testing:
+  
+        </script>
+      
+        <script src="js/index.js"></script>
+        <script src="js/ValueProperties.js"></script>
+        <script src="js/SingleQuestionTestCollection.js"></script>
+        <script src="js/individualTestsForLesson4.js"></script>
+    </body>
+</html>

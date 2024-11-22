@@ -1,0 +1,120 @@
+/* Author: Kira Miller */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 30px;
+	margin: 15px 5px;
+}
+
+.doubleCheck {
+	border: 1px dotted #cc00cc;
+	color: #cc00cc;
+	display: block;
+	margin: 3px auto 20px 60px;
+	padding: 10px 0 10px 10px;
+}
+
+.questionTestResultsTitle {
+	display: block;
+	font-size: 26px;
+	font-weight: 500;
+	margin: 30px 5px 5px 5px;
+	cursor: pointer;
+}
+
+.passColor {
+	background-color: #efe;
+	border: 1px solid green;
+	color: green;
+}
+
+.failColor {
+	background-color: #fee;
+	border: 3px dashed red;
+	color: red;
+}
+
+.questionTestResultsContainer {
+	background-color: #ffffdd;
+	margin: 10px;
+	padding: 10px;
+}
+
+.testTitle {
+	display: block;
+	font-size: 20px;
+	margin: 20px auto 5px 20px;
+}
+
+.testSubtitle {
+	display: block;
+	margin: 10px auto 5px 40px;
+}
+
+.pass {
+	color: green;
+	display: block;
+	margin: 3px auto 20px 60px;
+}
+
+.fail {
+	background-color: #fed;
+	border: 2px dashed red;
+	color: red;
+	display: block;
+	margin: 3px auto 20px 60px;
+	padding: 10px;
+}
+
+.codeQuote {
+	font-family: Courier;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.arrayTypeOfText {
+	color: #000; /* black */ 
+}
+
+.bigIntTypeOfText {
+	color: #ff0; /* yellow */ 
+}
+
+.booleanTypeOfText {
+	color: #faa; /* pink */ 
+}
+
+.functionTypeOfText {
+	color: #530; /* brown */ 
+}
+
+.nullTypeOfText {
+	color: #00f; /* blue */ 
+}
+
+.numberTypeOfText {
+	color: #808; /* dark purple */ 
+}
+
+.objectTypeOfText {
+	color: #fa0; /* orange */ 
+}
+
+.stringTypeOfText {
+	color: #080; /* green */ 
+}
+
+.symbolTypeOfText {
+	color: #550; /* dark yellow */ 
+}
+
+.undefinedTypeOfText {
+	color: #aaf; /* cyan */ 
+}
